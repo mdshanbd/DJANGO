@@ -1,4 +1,3 @@
-
 /*
 Design by TEMPLATED
 http://templated.co
@@ -6,47 +5,52 @@ Released for free under the Creative Commons Attribution License
 */
 
 body {
-	margin: 0;
-	padding: 0;
-	background: #243485;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #3B3B3B;
+  margin: 0;
+  padding: 0;
+  background: #243485;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3b3b3b;
 }
 
-h1, h2, h3 {
-	margin: 0px;
-	padding: 0px;
-	letter-spacing: -2px;
-	text-transform: uppercase;
-	font-family: 'Arvo', serif;
-	font-weight: normal;
-	color: #018AD1;
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  font-family: "Arvo", serif;
+  font-weight: normal;
+  color: #018ad1;
 }
 
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 h2 {
-	font-size: 2.4em;
+  font-size: 2.4em;
 }
 
 h3 {
-	font-size: 1.6em;
+  font-size: 1.6em;
 }
 
-p, ul, ol {
-	margin-top: 0;
-	line-height: 180%;
+p,
+ul,
+ol {
+  margin-top: 0;
+  line-height: 180%;
 }
 
-ul, ol {
+ul,
+ol {
 }
 
 a {
-	text-decoration: none;
-	color: #0285CE;
+  text-decoration: none;
+  color: #0285ce;
 }
 
 a:hover {
@@ -58,139 +62,141 @@ a:hover {
 }
 
 #header {
-	clear: both;
-	width: 1000px;
-	margin: 0px auto;
+  clear: both;
+  width: 1000px;
+  margin: 0px auto;
 }
 
 /* Logo */
 
 #logo {
-	margin: 0px;
-	padding: 30px 0px;
-	color: #000000;
+  margin: 0px;
+  padding: 30px 0px;
+  color: #000000;
 }
 
-#logo h1, #logo p {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+#logo h1,
+#logo p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #logo h1 {
-	margin: 0px;
-	padding: 0px;
-	text-transform: lowercase;
-	font-size: 3.8em;
-	color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+  font-size: 3.8em;
+  color: #ffffff;
 }
 
 #logo h1 span {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
 #logo p {
-	margin: 0px;
-	padding: 0px;
-	text-transform: uppercase;
-	font-family: 'Arvo', serif;
-	color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-family: "Arvo", serif;
+  color: #ffffff;
 }
 
 #logo p a {
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
 #logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
-	color: #FFFFFF;
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* Search */
 
 #search {
-	width: 320px;
-	height: 60px;
-	padding: 0px;
+  width: 320px;
+  height: 60px;
+  padding: 0px;
 }
 
 #search form {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 #search-text {
-	width: 250px;
-	outline: none;
-	background: #F5F0E7;
-	border: 1px solid #D7D0C0;
-	padding: 10px;
-	text-transform: lowercase;
-	font: normal 14px Arial, Helvetica, sans-serif;
-	color: #454545;
+  width: 250px;
+  outline: none;
+  background: #f5f0e7;
+  border: 1px solid #d7d0c0;
+  padding: 10px;
+  text-transform: lowercase;
+  font: normal 14px Arial, Helvetica, sans-serif;
+  color: #454545;
 }
 
 #search-submit {
-	width: 62px;
-	height: 22px;
-	display: none;
-	border: none;
-	color: #FFFFFF;
+  width: 62px;
+  height: 22px;
+  display: none;
+  border: none;
+  color: #ffffff;
 }
 
 /* Menu */
 
 #menu-wrapper {
-	overflow: hidden;
-	height: 60px;
-	background: url(images/menu-wrapper.jpg) repeat-x left top;
+  overflow: hidden;
+  height: 60px;
+  background: url(images/menu-wrapper.jpg) repeat-x left top;
 }
 
 #menu {
-	width: 1000px;
-	height: 55px;
-	margin: 0px auto;
-	padding: 0px;
+  width: 1000px;
+  height: 55px;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 #menu ul {
-	margin: 0;
-	padding: 0px;
-	list-style: none;
-	line-height: normal;
-	text-align: center;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  line-height: normal;
+  text-align: center;
 }
 
 #menu li {
-	display: inline-block;
-	border-right: 1px solid #FFFFFF;
+  display: inline-block;
+  border-right: 1px solid #ffffff;
 }
 
 #menu a {
-	display: block;
-	letter-spacing: 1px;
-	line-height: 55px;
-	padding: 0px 30px;
-	text-decoration: none;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Arvo', serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #3B3B3B;
-	border: none;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 55px;
+  padding: 0px 30px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arvo", serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #3b3b3b;
+  border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
-	text-decoration: none;
+#menu a:hover,
+#menu .current_page_item a {
+  text-decoration: none;
 }
 
 #menu .current_page_item a {
@@ -199,37 +205,37 @@ a:hover {
 /* Page */
 
 #page {
-	overflow: hidden;
-	width: 920px;
-	margin: 0px auto;
-	padding: 30px 40px;
-	background: url(images/page-bg.png) repeat-y left top;
+  overflow: hidden;
+  width: 920px;
+  margin: 0px auto;
+  padding: 30px 40px;
+  background: url(images/page-bg.png) repeat-y left top;
 }
 
 #page-bgtop {
-	width: 1000px;
-	height: 25px;
-	margin: 0px auto;
-	background: url(images/page-bgtop.png) no-repeat left top;
+  width: 1000px;
+  height: 25px;
+  margin: 0px auto;
+  background: url(images/page-bgtop.png) no-repeat left top;
 }
 
 #page-bgbtm {
-	width: 1000px;
-	height: 35px;
-	margin: 0px auto;
-	background: url(images/page-bgbtm.png) no-repeat left top;
+  width: 1000px;
+  height: 35px;
+  margin: 0px auto;
+  background: url(images/page-bgbtm.png) no-repeat left top;
 }
 
 /* Content */
 
 #content {
-	float: left;
-	width: 580px;
+  float: left;
+  width: 580px;
 }
 
 .post {
-	margin-bottom: 15px;
-	border-bottom: 1px dashed #D8D8D8;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #d8d8d8;
 }
 
 .post-bgtop {
@@ -239,111 +245,111 @@ a:hover {
 }
 
 .post .title {
-	height: 38px;
-	margin-bottom: 10px;
-	padding: 12px 0 0 0px;
-	font-size: 32px;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 12px 0 0 0px;
+  font-size: 32px;
 }
 
 .post .title a {
-	border: none;
-	color: #018AD1;
+  border: none;
+  color: #018ad1;
 }
 
 .post .meta {
-	margin-bottom: 30px;
-	padding: 5px 0px 15px 0px;
-	text-align: left;
-	font-weight: normal;
+  margin-bottom: 30px;
+  padding: 5px 0px 15px 0px;
+  text-align: left;
+  font-weight: normal;
 }
 
 .post .meta .date {
-	float: left;
+  float: left;
 }
 
 .post .meta .posted {
-	float: right;
+  float: right;
 }
 
 .post .meta a {
 }
 
 .post .entry {
-	padding: 0px 0px 20px 0px;
-	padding-bottom: 20px;
-	text-align: justify;
+  padding: 0px 0px 20px 0px;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 
 .links {
-	height: 30px;
-	padding: 30px 0px 0px 0px;
-	font-size: 14px;
-	font-weight: normal;
-	color: #1C1C1C;
+  height: 30px;
+  padding: 30px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #1c1c1c;
 }
 
 /* Sidebar */
 
 #sidebar {
-	float: right;
-	width: 280px;
-	margin: 0px;
-	padding: 30px 0px 0px 0px;
-	color: #000000;
+  float: right;
+  width: 280px;
+  margin: 0px;
+  padding: 30px 0px 0px 0px;
+  color: #000000;
 }
 
 #sidebar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 #sidebar li {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #sidebar li ul {
-	margin: 0px 0px;
-	padding-bottom: 50px;
+  margin: 0px 0px;
+  padding-bottom: 50px;
 }
 
 #sidebar li li {
-	border-bottom: 1px dashed #D8D8D8;
-	margin: 0px 0px;
-	padding: 5px 0px;
-	border-left: none;
+  border-bottom: 1px dashed #d8d8d8;
+  margin: 0px 0px;
+  padding: 5px 0px;
+  border-left: none;
 }
 
 #sidebar li li a {
-	color: #3B3B3B;
+  color: #3b3b3b;
 }
 
 #sidebar li li span {
-	display: block;
-	padding: 0;
-	font-size: 11px;
-	font-style: italic;
+  display: block;
+  padding: 0;
+  font-size: 11px;
+  font-style: italic;
 }
 
 #sidebar h2 {
-	padding-bottom: 20px;
-	font-size: 1.8em;
-	color: #018AD1;
+  padding-bottom: 20px;
+  font-size: 1.8em;
+  color: #018ad1;
 }
 
 #sidebar p {
-	margin: 0px 0px 40px 0px;
-	padding: 0px;
-	text-align: justify;
+  margin: 0px 0px 40px 0px;
+  padding: 0px;
+  text-align: justify;
 }
 
 #sidebar a {
-	border: none;
+  border: none;
 }
 
 #sidebar a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Calendar */
@@ -352,47 +358,47 @@ a:hover {
 }
 
 #calendar_wrap {
-	padding: 20px;
+  padding: 20px;
 }
 
 #calendar table {
-	width: 100%;
+  width: 100%;
 }
 
 #calendar tbody td {
-	text-align: center;
+  text-align: center;
 }
 
 #calendar #next {
-	text-align: right;
+  text-align: right;
 }
 
 /* Footer */
 
 #footer {
-	overflow: hidden;
-	height: 50px;
-	margin: 0 auto;
-	padding: 0px 0 15px 0;
-	font-family: 'Arvo', serif;
+  overflow: hidden;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0px 0 15px 0;
+  font-family: "Arvo", serif;
 }
 
 #footer p {
-	margin: 0;
-	padding-top: 20px;
-	line-height: normal;
-	font-size: 12px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	text-align: center;
-	color: #A0A0A0;
+  margin: 0;
+  padding-top: 20px;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #a0a0a0;
 }
 
 #footer a {
-	color: #8A8A8A;
+  color: #8a8a8a;
 }
 
 #banner {
-	width: 1000px;
-	margin: 0px auto;
+  width: 1000px;
+  margin: 0px auto;
 }
